@@ -137,3 +137,31 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+### Node ###
+logs
+*.log
+npm-debug.log*
+node_modules/
+.sass-cache/
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Linux ###
+*~
+
+### Code ###
+.settings/
+.vscode/
+
+### Webstorm ###
+.idea/
+
+### Other ###
+.test/
+.solution
+
+*/build/*
