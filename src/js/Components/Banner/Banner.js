@@ -2,7 +2,6 @@ import React from "react";
 
 import "./_banner.scss";
 import profile from "../../../assets/profile.png";
-
 const Banner = () => {
 	return (
 		<section className="banner">
@@ -12,7 +11,7 @@ const Banner = () => {
 					<br />
 					My name is
 					<br />
-					Pavan MG
+					<span className="gradient">Afrim</span>
 					<br />I build things for web
 				</h1>
 			</div>
