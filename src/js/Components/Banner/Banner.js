@@ -2,6 +2,7 @@ import React from "react";
 
 import "./_banner.scss";
 import profile from "../../../assets/profile.png";
+
 const Banner = () => {
 	return (
 		<section className="banner">
